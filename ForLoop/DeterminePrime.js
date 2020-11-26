@@ -7,6 +7,10 @@ for(let j = 2; j < number ; j++){
         count++;
     }
 }
+if(number==1)
+{
+    console.log(number+"is not prime);
+}
 if (count == 0) 
     console.log(number + " is a prime number");
 else 
