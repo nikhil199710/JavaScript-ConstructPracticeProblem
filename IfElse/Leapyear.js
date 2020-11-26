@@ -1,6 +1,6 @@
 // 3. Check if the year is leap year
 
-//const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
 const year = prompt('Enter year: ');   //User input
 if (year % 400 == 0)
 console.log("It's a Leap year");
